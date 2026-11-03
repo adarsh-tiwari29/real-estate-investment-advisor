@@ -1,0 +1,48 @@
+{
+  "classification": {
+    "LogisticRegression": {
+      "accuracy": 0.8705,
+      "precision": 0.8797,
+      "recall": 0.8844,
+      "f1_score": 0.8821,
+      "roc_auc": 0.9496,
+      "train_time_sec": 1.4
+    },
+    "RandomForestClassifier": {
+      "accuracy": 0.9551,
+      "precision": 0.9531,
+      "recall": 0.9656,
+      "f1_score": 0.9593,
+      "roc_auc": 0.9928,
+      "train_time_sec": 14.43
+    },
+    "XGBClassifier": {
+      "accuracy": 0.996,
+      "precision": 0.9955,
+      "recall": 0.9971,
+      "f1_score": 0.9963,
+      "roc_auc": 0.9999,
+      "train_time_sec": 16.37
+    }
+  },
+  "regression": {
+    "LinearRegression": {
+      "rmse": 14.5154,
+      "mae": 10.9661,
+      "r2": 0.9954,
+      "train_time_sec": 2.07
+    },
+    "RandomForestRegressor": {
+      "rmse": 11.3028,
+      "mae": 7.931,
+      "r2": 0.9972,
+      "train_time_sec": 97.29
+    },
+    "XGBRegressor": {
+      "rmse": 10.3551,
+      "mae": 7.2584,
+      "r2": 0.9977,
+      "train_time_sec": 9.77
+    }
+  }
+}
